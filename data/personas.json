@@ -1,0 +1,107 @@
+[
+  {
+    "persona": "Analyst",
+    "headcount": 540,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 488},
+      {"name": "What's approved at JD Power", "completed": 462},
+      {"name": "Hands-on: insight drafting & study analysis workflows", "completed": 415},
+      {"name": "Governance & acceptable-use", "completed": 401}
+    ],
+    "certified": 391,
+    "tool_access_unlocked": 391,
+    "champion": "Aanya Patel (Auto Research)",
+    "primary_tools": ["Claude Enterprise", "Microsoft 365 Copilot"],
+    "key_workflows": ["Insight drafting", "Study analysis", "Deliverable QA"]
+  },
+  {
+    "persona": "Researcher",
+    "headcount": 280,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 252},
+      {"name": "What's approved at JD Power", "completed": 240},
+      {"name": "Hands-on: research synthesis & long-document analysis", "completed": 212},
+      {"name": "Governance & acceptable-use", "completed": 198}
+    ],
+    "certified": 192,
+    "tool_access_unlocked": 192,
+    "champion": "Jordan Reyes (Insurance Research)",
+    "primary_tools": ["Claude Enterprise", "Perplexity Enterprise"],
+    "key_workflows": ["Research synthesis", "Source triage", "Theme extraction"]
+  },
+  {
+    "persona": "Consultant",
+    "headcount": 320,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 295},
+      {"name": "What's approved at JD Power", "completed": 281},
+      {"name": "Hands-on: client briefings & deliverable drafting", "completed": 246},
+      {"name": "Governance: client deliverable guardrails", "completed": 218}
+    ],
+    "certified": 211,
+    "tool_access_unlocked": 211,
+    "champion": "Marcus Chen (FS Consulting)",
+    "primary_tools": ["Claude Enterprise", "Microsoft 365 Copilot"],
+    "key_workflows": ["Client briefings", "Deliverable drafting", "Stakeholder synthesis"]
+  },
+  {
+    "persona": "Client Services",
+    "headcount": 410,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 380},
+      {"name": "What's approved at JD Power", "completed": 360},
+      {"name": "Hands-on: account workflows & client communications", "completed": 318},
+      {"name": "Governance & acceptable-use", "completed": 295}
+    ],
+    "certified": 286,
+    "tool_access_unlocked": 286,
+    "champion": "Priya Anand (Auto Account Mgmt)",
+    "primary_tools": ["Microsoft 365 Copilot"],
+    "key_workflows": ["Email triage", "Meeting summaries", "Account briefings"]
+  },
+  {
+    "persona": "Operations",
+    "headcount": 290,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 264},
+      {"name": "What's approved at JD Power", "completed": 248},
+      {"name": "Hands-on: ops workflows & data Q&A", "completed": 209},
+      {"name": "Governance & acceptable-use", "completed": 192}
+    ],
+    "certified": 186,
+    "tool_access_unlocked": 186,
+    "champion": "Diane Hsu (Operations)",
+    "primary_tools": ["Microsoft 365 Copilot"],
+    "key_workflows": ["Document Q&A", "Process documentation", "Excel analysis"]
+  },
+  {
+    "persona": "Executive",
+    "headcount": 60,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 58},
+      {"name": "What's approved at JD Power", "completed": 56},
+      {"name": "Hands-on: board prep, exec briefings, strategic synthesis", "completed": 48},
+      {"name": "Governance & board-narrative discipline", "completed": 46}
+    ],
+    "certified": 45,
+    "tool_access_unlocked": 45,
+    "champion": "Direct Hub partnership (no BU champion)",
+    "primary_tools": ["Claude Enterprise", "Microsoft 365 Copilot"],
+    "key_workflows": ["Board prep", "Strategic synthesis", "Cross-BU briefings"]
+  },
+  {
+    "persona": "Engineer",
+    "headcount": 210,
+    "sessions": [
+      {"name": "What AI is (and isn't)", "completed": 198},
+      {"name": "What's approved at JD Power", "completed": 192},
+      {"name": "Hands-on: Claude Code workflows & agentic patterns", "completed": 178},
+      {"name": "Governance: secrets, prompts, deployment guardrails", "completed": 168}
+    ],
+    "certified": 164,
+    "tool_access_unlocked": 164,
+    "champion": "Raj Singh (Engineering)",
+    "primary_tools": ["Claude Code", "Claude Enterprise"],
+    "key_workflows": ["Agentic coding", "Code review", "Multi-file refactor", "Test generation"]
+  }
+]

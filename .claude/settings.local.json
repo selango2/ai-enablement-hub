@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /usr/local/opt/ 2>/dev/null | grep -i python && which python3.11 python3.12 python3.13 2>/dev/null)",
+      "Read(//usr/local/opt/**)",
+      "Bash(cp .env.example .env && echo \"Created .env \\(still has placeholder key — replace ANTHROPIC_API_KEY value to enable Live Agent\\)\")",
+      "Bash(pkill -f \"streamlit run app.py\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8501)",
+      "Bash(lsof -i :8501 -sTCP:LISTEN -t)",
+      "Bash(pandoc --version)"
+    ],
+    "additionalDirectories": [
+      "/Users/elangosanthanam/Documents/CodeRepo/ai-enablement-hub"
+    ]
+  }
+}

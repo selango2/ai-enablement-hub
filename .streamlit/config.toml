@@ -1,0 +1,14 @@
+[theme]
+# JD Power-inspired palette: signature red, deep navy, warm off-white background
+primaryColor = "#BE1E2D"
+backgroundColor = "#F7F4F0"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1A2238"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = true
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Daniel Patel",
+    "business_unit": "Auto",
+    "role": "Senior Research Director",
+    "champion_since": "2026-01-15",
+    "focus_areas": ["Survey automation", "Briefing drafts"],
+    "use_cases_shipped": 3,
+    "trained_peers": 24
+  },
+  {
+    "name": "Maya Chen",
+    "business_unit": "Auto",
+    "role": "Principal Analyst",
+    "champion_since": "2026-02-01",
+    "focus_areas": ["Research synthesis", "Prompt design"],
+    "use_cases_shipped": 2,
+    "trained_peers": 18
+  },
+  {
+    "name": "Sade Okafor",
+    "business_unit": "Financial Services",
+    "role": "Research Lead",
+    "champion_since": "2026-01-20",
+    "focus_areas": ["Verbatim analysis", "Sentiment models"],
+    "use_cases_shipped": 2,
+    "trained_peers": 16
+  },
+  {
+    "name": "Linh Nguyen",
+    "business_unit": "Methodology",
+    "role": "Methodology Director",
+    "champion_since": "2026-01-10",
+    "focus_areas": ["RAG over methodology docs", "Quality controls"],
+    "use_cases_shipped": 1,
+    "trained_peers": 32
+  },
+  {
+    "name": "Rafael Alvarez",
+    "business_unit": "Commercial",
+    "role": "Sales Operations Manager",
+    "champion_since": "2026-02-10",
+    "focus_areas": ["Proposal automation", "Account research"],
+    "use_cases_shipped": 1,
+    "trained_peers": 22
+  },
+  {
+    "name": "Katherine Brooks",
+    "business_unit": "Insurance",
+    "role": "Research Director",
+    "champion_since": "2026-03-01",
+    "focus_areas": ["Claims experience benchmarking"],
+    "use_cases_shipped": 1,
+    "trained_peers": 9
+  },
+  {
+    "name": "Haruto Park",
+    "business_unit": "Utilities",
+    "role": "Senior Analyst",
+    "champion_since": "2026-03-15",
+    "focus_areas": ["Outage sentiment", "Comms analysis"],
+    "use_cases_shipped": 1,
+    "trained_peers": 7
+  },
+  {
+    "name": "Tara Singh",
+    "business_unit": "Engineering",
+    "role": "Staff Engineer",
+    "champion_since": "2026-01-05",
+    "focus_areas": ["Code assistants", "Eval pipelines"],
+    "use_cases_shipped": 2,
+    "trained_peers": 38
+  },
+  {
+    "name": "Adriana Romero",
+    "business_unit": "People / HR",
+    "role": "HR Technology Lead",
+    "champion_since": "2026-04-01",
+    "focus_areas": ["Onboarding copilot", "Policy Q&A"],
+    "use_cases_shipped": 1,
+    "trained_peers": 11
+  },
+  {
+    "name": "Junko Watanabe",
+    "business_unit": "Travel & Hospitality",
+    "role": "Research Manager",
+    "champion_since": "2026-04-10",
+    "focus_areas": ["Multilingual research", "Translation QA"],
+    "use_cases_shipped": 0,
+    "trained_peers": 6
+  }
+]

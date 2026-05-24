@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Open-text survey response coding",
+    "business_unit": "Auto",
+    "value_driver": "Productivity",
+    "stage": "In production",
+    "annualized_hours_saved": 4200,
+    "owner": "Auto Research — D. Patel",
+    "tools_used": ["Internal Survey Insight Agent", "Claude"],
+    "description": "Auto-codes thousands of free-text survey responses into the existing taxonomy, flagging novel themes for analyst review. Cuts coding cycle from 5 days to 1 day per study.",
+    "risk_tier": "Tier 3"
+  },
+  {
+    "title": "Industry briefing drafts",
+    "business_unit": "Auto",
+    "value_driver": "Productivity",
+    "stage": "In production",
+    "annualized_hours_saved": 1800,
+    "owner": "Auto Research — M. Chen",
+    "tools_used": ["Claude", "Perplexity Enterprise"],
+    "description": "Generates first-draft auto industry briefings from cited public sources; analyst edits and signs off before client delivery.",
+    "risk_tier": "Tier 1"
+  },
+  {
+    "title": "Verbatim sentiment + emotion tagging",
+    "business_unit": "Financial Services",
+    "value_driver": "Insight quality",
+    "stage": "In production",
+    "annualized_hours_saved": 2600,
+    "owner": "FS Research — S. Okafor",
+    "tools_used": ["Claude", "Internal Survey Insight Agent"],
+    "description": "Multi-label sentiment and emotion tagging on customer verbatims, enabling new insight slices in standard reports.",
+    "risk_tier": "Tier 3"
+  },
+  {
+    "title": "Methodology Q&A copilot",
+    "business_unit": "All BUs",
+    "value_driver": "Quality / consistency",
+    "stage": "In production",
+    "annualized_hours_saved": 1400,
+    "owner": "Methodology Office — L. Nguyen",
+    "tools_used": ["Claude"],
+    "description": "RAG copilot over internal methodology docs. Answers analyst questions with citations, reducing escalations to the methodology team by ~40%.",
+    "risk_tier": "Tier 2"
+  },
+  {
+    "title": "Sales proposal first drafts",
+    "business_unit": "Commercial",
+    "value_driver": "Revenue velocity",
+    "stage": "In production",
+    "annualized_hours_saved": 3100,
+    "owner": "Sales Ops — R. Alvarez",
+    "tools_used": ["Claude", "ChatGPT Enterprise"],
+    "description": "Generates tailored first-draft proposals from a brief plus past wins. Cuts proposal turnaround from 3 days to 6 hours.",
+    "risk_tier": "Tier 2"
+  },
+  {
+    "title": "Insurance claims experience benchmarking",
+    "business_unit": "Insurance",
+    "value_driver": "Insight quality",
+    "stage": "Pilot",
+    "annualized_hours_saved": 900,
+    "owner": "Insurance Research — K. Brooks",
+    "tools_used": ["Claude"],
+    "description": "Synthesizes carrier claims-experience verbatims into comparative themes for the syndicated study.",
+    "risk_tier": "Tier 3"
+  },
+  {
+    "title": "Utility outage communication sentiment",
+    "business_unit": "Utilities",
+    "value_driver": "Insight quality",
+    "stage": "Pilot",
+    "annualized_hours_saved": 600,
+    "owner": "Utilities Research — H. Park",
+    "tools_used": ["Claude"],
+    "description": "Tracks sentiment in outage communications and customer responses across utility providers.",
+    "risk_tier": "Tier 2"
+  },
+  {
+    "title": "Engineering test generation",
+    "business_unit": "Engineering",
+    "value_driver": "Productivity",
+    "stage": "In production",
+    "annualized_hours_saved": 2400,
+    "owner": "Eng Productivity — T. Singh",
+    "tools_used": ["GitHub Copilot", "Cursor"],
+    "description": "AI-generated unit tests on PR open, with developer review. Lift in median test coverage of +9 points across the data platform repo.",
+    "risk_tier": "Tier 1"
+  },
+  {
+    "title": "Onboarding copilot",
+    "business_unit": "People / HR",
+    "value_driver": "Employee experience",
+    "stage": "Pilot",
+    "annualized_hours_saved": 700,
+    "owner": "HR Tech — A. Romero",
+    "tools_used": ["Claude"],
+    "description": "Answers new hire questions from approved HR docs with citations. Reduces ticket volume to People Operations.",
+    "risk_tier": "Tier 2"
+  },
+  {
+    "title": "Quarterly board-deck drafting",
+    "business_unit": "Executive",
+    "value_driver": "Time-to-insight",
+    "stage": "Backlog",
+    "annualized_hours_saved": 400,
+    "owner": "Strategy — pending owner",
+    "tools_used": ["Claude"],
+    "description": "Pulls structured metrics into a starter board deck narrative. Awaiting governance review for executive-data classification.",
+    "risk_tier": "Tier 3"
+  },
+  {
+    "title": "Travel & hospitality verbatim translation",
+    "business_unit": "Travel & Hospitality",
+    "value_driver": "Insight quality",
+    "stage": "Backlog",
+    "annualized_hours_saved": 500,
+    "owner": "T&H Research — J. Watanabe",
+    "tools_used": ["Claude"],
+    "description": "Translates non-English verbatims for syndicated global studies, with back-translation QA.",
+    "risk_tier": "Tier 2"
+  },
+  {
+    "title": "Healthcare patient experience theme mining",
+    "business_unit": "Health",
+    "value_driver": "Insight quality",
+    "stage": "Backlog",
+    "annualized_hours_saved": 800,
+    "owner": "Health Research — pending owner",
+    "tools_used": ["Claude"],
+    "description": "Theme mining over patient experience verbatims. Blocked on PHI handling review.",
+    "risk_tier": "Tier 4 — Regulated"
+  }
+]

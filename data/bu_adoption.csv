@@ -1,0 +1,13 @@
+business_unit,active_users,headcount,adoption_pct,use_cases_in_prod,hours_saved_ytd
+Auto,310,560,55,3,6000
+Financial Services,210,420,50,1,2600
+Insurance,95,310,31,0,900
+Utilities,70,260,27,0,600
+Travel & Hospitality,45,210,21,0,0
+Health,30,190,16,0,0
+Telecom & Tech,55,180,31,0,0
+Commercial,140,240,58,1,3100
+Engineering,260,310,84,1,2400
+Methodology,40,52,77,1,1400
+People / HR,30,95,32,0,700
+Executive,15,28,54,0,0

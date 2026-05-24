@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Industry briefing draft (auto)",
+    "category": "Research synthesis",
+    "audience": "Auto analysts",
+    "tools": ["Claude", "ChatGPT Enterprise"],
+    "prompt": "You are an automotive industry analyst at JD Power. Using only the sources provided below, draft a 600-word weekly briefing on the topic: {{topic}}. Include: (1) headline development, (2) why it matters to OEM and dealer clients, (3) data points with inline citations [source N], (4) what to watch next. Do not introduce facts that aren't in the sources. End with a 'Confidence' line: High / Medium / Low and one sentence why.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Open-text response coder",
+    "category": "Survey analysis",
+    "audience": "Research analysts",
+    "tools": ["Claude", "Internal Survey Insight Agent"],
+    "prompt": "Code the following anonymized survey verbatims into our taxonomy. Taxonomy: {{taxonomy_json}}. Rules: (1) assign 1-3 codes per response, ranked by salience; (2) if no code fits, return 'NOVEL' and a short proposed label; (3) output strict JSON with fields: id, codes, novel_label_proposal, confidence. Do not invent codes. Verbatims: {{verbatims}}.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Methodology Q&A (RAG)",
+    "category": "Knowledge retrieval",
+    "audience": "All analysts",
+    "tools": ["Claude"],
+    "prompt": "Answer the analyst's question using ONLY the methodology excerpts provided. Cite the source for every claim as [doc:section]. If the answer is not in the excerpts, say so and recommend escalating to the Methodology Office. Question: {{question}}. Excerpts: {{excerpts}}.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Proposal first draft",
+    "category": "Commercial",
+    "audience": "Sales / Account",
+    "tools": ["Claude"],
+    "prompt": "Draft a proposal section for the prospect described below. Match the tone of the past-win exemplar. Do NOT make up case studies or numbers — leave a [PLACEHOLDER: ...] tag if a fact isn't given. Prospect brief: {{brief}}. Past-win exemplar: {{exemplar}}.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Verbatim sentiment + emotion tagging",
+    "category": "Survey analysis",
+    "audience": "Research analysts",
+    "tools": ["Claude"],
+    "prompt": "Tag each verbatim with: (1) sentiment in {positive, neutral, negative, mixed}; (2) up to 2 emotions from {frustration, delight, confusion, trust, distrust, anxiety, satisfaction}; (3) intensity 1-5. Output strict JSON. Verbatims: {{verbatims}}.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Executive 1-pager from report",
+    "category": "Synthesis",
+    "audience": "Executives",
+    "tools": ["Claude"],
+    "prompt": "Compress the attached research report into a single 1-pager with these sections: TL;DR (3 bullets), what changed vs last wave, top 3 implications for clients, recommended actions. No section over 80 words. Maintain JD Power brand voice: precise, evidence-led, no hype.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Meeting minutes from transcript",
+    "category": "Productivity",
+    "audience": "All employees",
+    "tools": ["Claude", "M365 Copilot"],
+    "prompt": "From the transcript below, produce: (1) 5-bullet summary, (2) decisions made, (3) action items with owner and due date, (4) open questions. Mark anything ambiguous rather than guessing. Transcript: {{transcript}}.",
+    "review_status": "Approved"
+  },
+  {
+    "title": "Translate verbatims (with back-translation QA)",
+    "category": "Multilingual research",
+    "audience": "Global research teams",
+    "tools": ["Claude"],
+    "prompt": "Translate each verbatim from {{source_lang}} to English. For each, also provide a back-translation to {{source_lang}}. Flag any verbatim where back-translation diverges meaningfully (rate semantic equivalence 1-5, flag <4 for human review). Verbatims: {{verbatims}}.",
+    "review_status": "Approved"
+  }
+]
