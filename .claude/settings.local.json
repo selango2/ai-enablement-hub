@@ -7,7 +7,13 @@
       "Bash(pkill -f \"streamlit run app.py\")",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8501)",
       "Bash(lsof -i :8501 -sTCP:LISTEN -t)",
-      "Bash(pandoc --version)"
+      "Bash(pandoc --version)",
+      "Bash(python3 -c \"import weasyprint; print\\('weasyprint available'\\)\")",
+      "Bash(python3 -c \"import fpdf; print\\('fpdf2 available'\\)\")",
+      "Bash(python3 -c \"import reportlab; print\\('reportlab available'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3)",
+      "Bash(/usr/local/opt/python@3.11/bin/python3.11)"
     ],
     "additionalDirectories": [
       "/Users/elangosanthanam/Documents/CodeRepo/ai-enablement-hub"
