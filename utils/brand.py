@@ -36,7 +36,7 @@ _BRAND_CSS = """
 }
 
 /* Custom sidebar brand block */
-.jdpower-sidebar-brand {
+.perficient-sidebar-brand {
     background: linear-gradient(135deg, #003D82 0%, #8C1623 100%);
     color: #FFFFFF !important;
     padding: 18px 18px 16px;
@@ -45,7 +45,7 @@ _BRAND_CSS = """
     text-align: left;
     box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
-.jdpower-sidebar-brand .jp-mark {
+.perficient-sidebar-brand .jp-mark {
     background: #FFFFFF;
     color: #003D82 !important;
     padding: 3px 8px;
@@ -55,13 +55,13 @@ _BRAND_CSS = """
     letter-spacing: 1px;
     margin-right: 6px;
 }
-.jdpower-sidebar-brand .jp-name {
+.perficient-sidebar-brand .jp-name {
     font-weight: 800;
     font-size: 16px;
     letter-spacing: 1.5px;
     color: #FFFFFF !important;
 }
-.jdpower-sidebar-brand .jp-sub {
+.perficient-sidebar-brand .jp-sub {
     display: block;
     font-size: 13px;
     font-weight: 500;
@@ -69,7 +69,7 @@ _BRAND_CSS = """
     opacity: 0.95;
     margin-top: 6px;
 }
-.jdpower-sidebar-brand .jp-tag {
+.perficient-sidebar-brand .jp-tag {
     display: inline-block;
     font-size: 10px;
     color: #1A2238 !important;
@@ -82,7 +82,7 @@ _BRAND_CSS = """
 }
 
 /* Sidebar section labels */
-.jdpower-nav-section {
+.perficient-nav-section {
     color: #F4C842 !important;
     font-size: 11px;
     font-weight: 700;
@@ -107,7 +107,7 @@ _BRAND_CSS = """
 }
 
 /* Branded header bar at the top of every page */
-.jdpower-header {
+.perficient-header {
     background: linear-gradient(90deg, #003D82 0%, #8C1623 100%);
     color: #FFFFFF;
     padding: 16px 26px;
@@ -118,13 +118,13 @@ _BRAND_CSS = """
     align-items: center;
     justify-content: space-between;
 }
-.jdpower-header .brand {
+.perficient-header .brand {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: 800;
     font-size: 22px;
     letter-spacing: 2px;
 }
-.jdpower-header .brand-mark {
+.perficient-header .brand-mark {
     background: #FFFFFF;
     color: #003D82;
     padding: 4px 10px;
@@ -132,7 +132,7 @@ _BRAND_CSS = """
     margin-right: 10px;
     font-weight: 900;
 }
-.jdpower-header .sub {
+.perficient-header .sub {
     font-size: 13px;
     font-weight: 400;
     opacity: 0.92;
