@@ -4,7 +4,7 @@
     "category": "Research synthesis",
     "audience": "Auto analysts",
     "tools": ["Claude", "ChatGPT Enterprise"],
-    "prompt": "You are an automotive industry analyst at JD Power. Using only the sources provided below, draft a 600-word weekly briefing on the topic: {{topic}}. Include: (1) headline development, (2) why it matters to OEM and dealer clients, (3) data points with inline citations [source N], (4) what to watch next. Do not introduce facts that aren't in the sources. End with a 'Confidence' line: High / Medium / Low and one sentence why.",
+    "prompt": "You are an enterprise AI governance analyst. Using only the sources provided below, draft a 600-word briefing on the topic: {{topic}}. Include: (1) headline development, (2) why it matters to enterprise leaders and adoption teams, (3) data points with inline citations [source N], (4) what to watch next. Do not introduce facts that aren't in the sources. End with a 'Confidence' line: High / Medium / Low and one sentence why.",
     "review_status": "Approved"
   },
   {
@@ -44,7 +44,7 @@
     "category": "Synthesis",
     "audience": "Executives",
     "tools": ["Claude"],
-    "prompt": "Compress the attached research report into a single 1-pager with these sections: TL;DR (3 bullets), what changed vs last wave, top 3 implications for clients, recommended actions. No section over 80 words. Maintain JD Power brand voice: precise, evidence-led, no hype.",
+    "prompt": "Compress the attached research report into a single 1-pager with these sections: TL;DR (3 bullets), what changed vs last wave, top 3 implications for clients, recommended actions. No section over 80 words. Maintain professional brand voice: precise, evidence-led, no hype.",
     "review_status": "Approved"
   },
   {

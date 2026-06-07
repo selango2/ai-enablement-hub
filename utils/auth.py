@@ -49,7 +49,7 @@ def _render_login_screen(expected_present: bool, error: str | None) -> None:
     st.markdown('<div class="jp-login-wrap">', unsafe_allow_html=True)
     st.markdown(
         """
-<div class="jdpower-header" style="margin-bottom: 24px;">
+<div class="perficient-header" style="margin-bottom: 24px;">
     <div>
         <span class="brand"><span class="brand-mark">P</span>ERFICIENT</span>
         &nbsp;&nbsp;<span class="sub">AI Adoption Operating Model</span>

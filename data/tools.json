@@ -73,7 +73,7 @@
     "monthly_cost_usd": 1500,
     "owner": "IT / AI Enablement Hub",
     "review_date": "2026-07-15",
-    "rationale": "Held under review. If JD Power's stack is confirmed Microsoft-aligned in the 2-week BU evaluation, I revisit and consider replacing or complementing ChatGPT Enterprise. Until then, pilot scope only."
+    "rationale": "Held under review. If the customer's stack is confirmed Microsoft-aligned in the 2-week BU evaluation, I revisit and consider replacing or complementing ChatGPT Enterprise. Until then, pilot scope only."
   },
   {
     "name": "Portkey",
@@ -142,7 +142,7 @@
     "risk_tier": "N/A",
     "intended_users": "None",
     "approved_use_cases": [],
-    "restrictions": "Blocked: JD Power runs Microsoft 365; no parallel productivity stack",
+    "restrictions": "Blocked: customer runs Microsoft 365; no parallel productivity stack",
     "data_residency": "US",
     "sso_enabled": true,
     "seats": 0,
