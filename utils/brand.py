@@ -1,4 +1,4 @@
-"""JD Power-themed branding helpers for the AI Enablement Hub.
+"""Perficient-themed branding helpers for the AI Enablement Hub.
 
 Call `apply_brand()` at the top of every page (after st.set_page_config)
 to apply the global CSS, render the branded header bar, and inject the
@@ -37,7 +37,7 @@ _BRAND_CSS = """
 
 /* Custom sidebar brand block */
 .jdpower-sidebar-brand {
-    background: linear-gradient(135deg, #BE1E2D 0%, #8C1623 100%);
+    background: linear-gradient(135deg, #003D82 0%, #8C1623 100%);
     color: #FFFFFF !important;
     padding: 18px 18px 16px;
     margin: -8px -16px 14px;
@@ -47,7 +47,7 @@ _BRAND_CSS = """
 }
 .jdpower-sidebar-brand .jp-mark {
     background: #FFFFFF;
-    color: #BE1E2D !important;
+    color: #003D82 !important;
     padding: 3px 8px;
     border-radius: 4px;
     font-weight: 900;
@@ -108,7 +108,7 @@ _BRAND_CSS = """
 
 /* Branded header bar at the top of every page */
 .jdpower-header {
-    background: linear-gradient(90deg, #BE1E2D 0%, #8C1623 100%);
+    background: linear-gradient(90deg, #003D82 0%, #8C1623 100%);
     color: #FFFFFF;
     padding: 16px 26px;
     border-radius: 10px;
@@ -126,7 +126,7 @@ _BRAND_CSS = """
 }
 .jdpower-header .brand-mark {
     background: #FFFFFF;
-    color: #BE1E2D;
+    color: #003D82;
     padding: 4px 10px;
     border-radius: 4px;
     margin-right: 10px;
@@ -144,7 +144,7 @@ _BRAND_CSS = """
     border-radius: 10px;
     padding: 14px 18px;
     box-shadow: 0 2px 8px rgba(26, 34, 56, 0.08);
-    border-left: 4px solid #BE1E2D;
+    border-left: 4px solid #003D82;
 }
 
 /* Bordered containers (st.container(border=True)) */
@@ -172,7 +172,7 @@ h1, h2, h3 {
 
 /* Page link buttons inside the main content (card grid) */
 .main [data-testid="stPageLink"] a {
-    color: #BE1E2D !important;
+    color: #003D82 !important;
     font-weight: 600;
 }
 
@@ -192,7 +192,7 @@ h1, h2, h3 {
 
 /* Buttons */
 .stButton > button {
-    background: #BE1E2D;
+    background: #003D82;
     color: #FFFFFF;
     border: none;
     font-weight: 600;
@@ -215,10 +215,10 @@ h1, h2, h3 {
 _SIDEBAR_BRAND_HTML = """
 <div class="jdpower-sidebar-brand">
     <div>
-        <span class="jp-mark">JD</span><span class="jp-name">POWER</span>
+        <span class="jp-mark">P</span><span class="jp-name">ERFICIENT</span>
     </div>
-    <span class="jp-sub">AI Enablement Hub</span>
-    <span class="jp-tag">v0 · governed by design</span>
+    <span class="jp-sub">AI Adoption Operating Model</span>
+    <span class="jp-tag">v1 · proven framework</span>
 </div>
 """
 
@@ -262,8 +262,8 @@ def apply_brand(page_label: str | None = None) -> None:
         f"""
 <div class="jdpower-header">
     <div>
-        <span class="brand"><span class="brand-mark">JD</span>POWER</span>
-        &nbsp;&nbsp;<span class="sub">AI Enablement Hub</span>
+        <span class="brand"><span class="brand-mark">P</span>ERFICIENT</span>
+        &nbsp;&nbsp;<span class="sub">AI Adoption Operating Model</span>
     </div>
     <div class="sub">{right_label}</div>
 </div>

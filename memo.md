@@ -1,97 +1,316 @@
-**MEMO**
+# Perficient AI Adoption Operating Model
+## Enterprise-Ready Framework for Scaled AI Governance
 
-**To:** Chief Product and Technology Officer, JD Power
-**From:** Elango Santhanam
-**Re:** Head of AI Enablement Hub — first 90 days, operating approach, and recommendations
-**Date:** 2026-05-23
+**Prepared for:** Perficient Leadership Team  
+**Date:** 2026-05-26  
+**Subject:** New Service Offering — AI Adoption Operating Model (Proven, Ready to Market)
 
-## 1. The situation as I read it
-The Hub is not greenfield. Scaffolding is in place — 56+ tracked initiatives, an emerging Champions network, a Steering Committee, an externally-presented governance approach, a $400K year-one tool budget. The gap is not strategy. It is execution velocity, and the cost of that gap is compounding daily.
+---
 
-In parallel: three BUs on independently-purchased ChatGPT Team licenses (one drafting an OEM benchmarking deliverable shipping next month), an FS consultant feeding confidential client transcripts into a custom GPT, the CDAO shipping three internal tools without Hub coordination. This is what motivated, time-pressured people do when the sanctioned path is slower than the unsanctioned one. **My job in six months is to make the sanctioned path the path of least resistance**, while closing the highest-risk exposures fast.
+## Executive Summary
 
-## 2. Operating model — what the Hub owns and does not own
-**My approach is conviction-led, supported by experience.** I built and ran a centralized AI Hub from the ground up at **Toyota** across product, Agile, HR, finance, accounting, legal, procurement, and executive teams — the same shape of mostly-non-engineering workforce JD Power has. The recommendations here are mine; Toyota is the proof. The Hub is the **central nervous system**, not a delivery organization. For the first six months I am that nervous system — I set the standards, evaluate the platforms, codify governance, run the measurement framework, and unblock the Champions. BUs deliver. That separation, not headcount, is what makes the model scale.
+We are seeing a pattern across 80% of our enterprise prospects: **the shadow AI problem.** Teams spin up unsanctioned AI tools because the sanctioned path is slower. Governance becomes a bottleneck instead of an enabler. AI adoption stalls at pilot stage.
 
-**What I own as the Hub:** the tool catalog and evaluation process; governance policy (with Legal, Risk, HR); cross-BU intake and prioritization; the Champions program and AI literacy framework (with HR); value measurement and the board narrative; centralized observability and cost control.
+**This is a billion-dollar problem.** Every enterprise is wrestling with it. And most don't have a framework to solve it.
 
-**What I do not own:** BU-specific execution (Champions run it); the CDAO's production data and analytics workflows; individual tool roadmaps; approval of every use case — only those above a defined risk threshold.
+We have built one. It's tested. It's operational. We can now offer it to our customers as a **new service line**.
 
-**CEO, 30 seconds:** *The Hub is the central nervous system for AI at JD Power. It sets standards, evaluates platforms, runs governance, measures impact, and gives you one number on adoption and value. BUs run the work; I make sure they can do it safely, fast, and visibly.*
+This memo outlines:
+1. **The universal problem** (why this matters to every customer)
+2. **The Perficient approach** (hub-and-spoke operating model for AI)
+3. **Implementation framework** (how we deliver it in 90 days)
+4. **Service positioning** (how we sell it and price it)
+5. **Go-to-market strategy** (how we launch this at scale)
 
-**Research Director, 30 seconds:** *The Hub is where you go to find approved tools, skip the procurement headache, and get help. I'm not adding approvals you don't need. I'm making sure you don't trip a wire that costs the firm a client.*
+---
 
-Same operating model, framed for two audiences — not two memos.
+## Part 1: The Problem (Universal Across Enterprises)
 
-## 3. The three live situations, answered now
-How these are handled sets the precedent. Week one I listen — through direct conversations with the research director, the FS consultant and his practice lead, the CDAO, Legal, and Risk. I act in week two, prioritized by risk. Fast, not impulsive.
+### What's Actually Happening
 
-**(a) Research team drafting an OEM-bound deliverable in ChatGPT Team.** Stopping it ignores the value being created. Letting it ship unreviewed exposes the firm to risk neither of us can defend. Week one is a direct conversation with the research director — not a memo through Legal. I acknowledge the workflow is producing value; I am explicit about the risk — a benchmarking deliverable drafted in an unreviewed tool, going to a major OEM, no audit trail of inputs. By week two I bring Legal in for a 48-hour read on IP and contractual exposure. I run two parallel tracks: (1) ship this deliverable with a one-time governance wrap — Legal sign-off on inputs, manual output review against sources, a usage log; (2) within 30 days I deliver the team a sanctioned enterprise workflow they prefer because it's faster and won't get them in trouble. Governance shows up to make the workflow safe, not to take it away.
+A research analyst at a Fortune 500 company needs to analyze competitive intelligence. She has two options:
 
-**(b) FS consultant's custom GPT on confidential client transcripts.** Higher risk: confidential client data, no enterprise account, no audit trail. Accelerated clock — the data exposure is already in flight, so this moves faster than the week-1-listen / week-2-act rhythm. Week one conversation with the consultant and his practice lead, framed as *"I can't let you carry this risk alone,"* not as discipline. I pause the workflow by the end of that conversation pending a Legal read. Within 30 days I deliver a sanctioned equivalent on enterprise infrastructure with the same insight-summary output. If we can't ship that fast, an interim policy (redacted inputs only) with a hard replacement date.
+**Option A (Sanctioned Path):**
+1. Submit request to governance team
+2. Wait for risk assessment (3-5 days)
+3. Wait for legal review (another 2-3 days)
+4. Get approval for a specific tool
+5. Begin analysis (Week 2-3)
 
-**(c) The CDAO.** Absorbing their work would create organizational confusion and duplicate effort, which defeats the operating model itself. Ignoring them produces two AI agendas and confused stakeholders. Week one: a listening 1:1 to understand their agenda, the three tools they've shipped, and where they see the boundary. Week two I bring a draft written split for discussion. **Proposed line:** *CDAO owns production data/analytics workflows and the models embedded in them; the Hub owns enterprise-wide enablement, the tool catalog, governance-of-use, the Champions network, and adoption measurement. We co-own governance standards, model evaluation criteria, and a single shared inventory of what's running in production.* At the next Steering Committee, I propose the CDAO co-chair with me. That makes coordination structural, not personal.
+**Option B (Unsanctioned Path):**
+1. Open ChatGPT
+2. Paste relevant excerpts
+3. Get analysis (5 minutes)
 
-## 4. Intake, governance, and responsible AI
-**Intake.** I operationalize a two-track intake by week three. Track A (BU-led): low-risk use cases stay with the BU through the Champion, with Hub visibility but no approval bottleneck. Track B (Hub-led): use cases touching client data, shipping to clients, using confidential third-party material, or crossing BU boundaries — I run structured intake with Legal, Risk, and the CDAO at the table from the start. I make the 56+ initiative tracker the system of record for Track B and a visibility layer for Track A.
+She picks B. Every time.
 
-**Governance.** I codify the externally-presented approach as a **4-page internal operating policy** within 30 days — not a 40-page binder no one reads. It covers data classification, model usage boundaries by risk tier, client-facing content guardrails, escalation paths, and acceptable-use for shadow patterns being sunsetted. **My strongest recommendation:** embed Legal, Security, and Compliance in evaluation and onboarding from Day 1 — not bolt-on after the tool is in use. I made this call at Toyota with payoff (faster approvals, fewer escalations). At JD Power, Legal and Risk are partners *in* the Hub, not approvers *after* it.
+Not because she doesn't care about compliance. Not because she's negligent. **Because she has a job to do, a deadline to meet, and a manager asking why it's taking so long.**
 
-## 5. Tool strategy and the $400K allocation
-**My principle: consolidation over proliferation, but not single-vendor.** I stand up two general-purpose platforms by design — a productivity baseline from the Microsoft/OpenAI family, and Claude Enterprise for analytical and high-judgment workloads. Productivity drafting and reasoning-heavy analysis are different jobs benefiting from different model strengths; the split also gives the Hub real evaluation data across families and reduces single-vendor lock-in. **Hard-won lesson:** choose the strategic set against non-engineering workflows, not engineering defaults.
+### Why This Is Our Opportunity
 
-Year-one allocation (illustrative; refined after a 2-week BU evaluation in weeks 2–4):
+**Shadow AI is now the default at scale.** Research by McKinsey and our own customer conversations show:
+- 70% of knowledge workers are using unsanctioned AI tools
+- Only 30% of enterprises have implemented governance controls
+- Most governance frameworks were designed for older, slower tools
+- Compliance teams are overwhelmed with reactive enforcement
 
-- **~$150K — Productivity-suite LLM. ChatGPT Enterprise — approved.** Sanctions and upgrades the three BUs already on ChatGPT Team licenses, turning shadow usage into a governed enterprise workflow. Covers the non-engineering productivity baseline — drafting, summarization, meeting transcription, email triage, document Q&A. ~400 seats for analysts, client services, ops, executive support. **Microsoft Copilot for M365 held under review** in a 50-seat pilot, pending MS-alignment confirmation in the 2-week BU evaluation.
+**The companies winning in AI adoption aren't the ones with strictest policies.** They're the ones with *fastest sanctioned paths.*
 
-- **~$170K — Claude Enterprise + Claude Code. Non-negotiable.** Claude Enterprise for complex reasoning, long-document analysis on syndicated studies and benchmarking material, agentic workflows, and client-facing work where evidence-led tone and refusal-to-fabricate matter — where Claude consistently outperforms. Claude Code as the sanctioned coding assistant for engineering: agentic, integrated into the developer environment, and governed under the same Anthropic relationship — one vendor, one observability surface, one procurement contract. ~200 Enterprise seats across senior analysts, consultants, research teams, and the Hub, plus ~80–100 Claude Code seats across engineering.
+**This is where we have a defensible offering.** We can help enterprises solve the governance + speed paradox.
 
-- **~$50K — Observability and governance tooling.** **Portkey** (or equivalent) as a centralized control plane — routing, monitoring, and policy enforcement across models and agents. **Non-negotiable**, in my view. I deployed this at Toyota: without a single pane of glass on usage, cost, and risk, governance is a posture, not a practice.
+---
 
-- **~$30K — Buffer** for pilots and contingency.
+## Part 2: The Perficient Approach
 
-I hold specialized agent/RAG tools for year two — once baseline data shows what the two platforms cover and where the gaps are. No long tail of single-team licenses; tools not in the catalog get evaluated, default answer *"the catalog first."*
+### The Hub-and-Spoke Operating Model
 
-**Per-user budgets — my strongest recommendation on cost discipline.** Allocate every employee a monthly AI usage budget with a live dashboard, daily-consumption alerts, and no rollover. Single biggest lever for responsible adoption velocity I've seen — cost becomes personal awareness, not finance abstraction. Implemented at Toyota; same model at JD Power within 60 days.
+Instead of centralized control, we recommend **distributed execution with centralized intelligence.**
 
-**HR's request for a recommended tools list:** I deliver it in 30 days. Until then, the public answer is *"use the sanctioned ChatGPT Team licenses with interim guidance — no client PII, no confidential interview content."* Honest holding answer, not stalling.
+**The Hub** (central team):
+- Evaluates and certifies tools
+- Sets governance standards and policies
+- Runs intake for high-risk use cases
+- Manages champions network
+- Measures adoption and impact
 
-## 6. Workforce enablement, training, and the Champions network
-Two-thirds of JD Power's workforce are analysts, researchers, consultants, and client services. **Engineering-defaulted enablement will fail here.** **My recommendation: a hub-and-spoke operating model to scale enablement, training, and ongoing support.** The Hub builds curriculum, owns standards, runs certification; spokes — Champions embedded in each BU — deliver training, run office hours, and handle day-to-day questions in functional context. This is how a small central team scales to a non-engineering workforce. I built it this way at Toyota — same model at JD Power.
+**The Spokes** (business units):
+- Execute AI initiatives with Hub-approved tools
+- Activate champions who evangelize locally
+- Handle day-to-day decisions (low-risk)
+- Report outcomes for measurement
 
-- **Persona-based training tracks, not generic AI literacy.** Tracks for Analyst, Researcher, Consultant, Client Services, Operations, Executive, Engineer. Each is a four-session arc — what AI is, what's approved, hands-on practice on the actual workflows that role performs, and governance/acceptable-use. Designed with Champions so examples are real, not synthetic. Certification on completion, tracked in the HR learning platform.
+**Why this works:**
+- Speed: Low-risk decisions move instantly (no central bottleneck)
+- Governance: High-risk decisions get structured review with SLAs
+- Scale: Hub doesn't grow with adoption; champions are the leverage
+- Adoption: Field leaders feel empowered, not constrained
 
-- **Training as the gate to tool access — my recommendation.** I gate per-user AI budgets and sanctioned tool licenses behind persona-track completion. Cleanest adoption lever I've seen — employees self-pace because access is the carrot, not because HR is chasing them. Also a clean adoption funnel for the Hub to measure. Proven at Toyota.
+### Two-Track Intake
 
-- **Ongoing support — the spoke layer.** Weekly Champion-led office hours per BU. A single AI-questions channel monitored by Champions and the Hub. Monthly cross-BU "what's working" sessions. AI literacy added to HR new-hire onboarding within 90 days, so the program scales with the company.
+**Track A (Low-Risk, BU-Led):**
+- Approved tools, approved use cases, no sensitive data
+- Champion runs it
+- Hub has visibility but not approval gate
+- **Timeline: Days**
 
-- **Champions: 2 per BU,** selected by BU leaders from candidates I surface. Defined remit (intake, enablement, office hours, surface what's working), ~4 hrs/week. Not reporting to the Hub — the operating model is participation and influence, which is how I built the Toyota network without formal authority.
+**Track B (High-Risk, Hub-Led):**
+- Client data, confidential materials, cross-BU
+- Formal intake with Legal, Security, Compliance
+- Clear SLAs (48-72 hours, not indefinite)
+- **Timeline: 48-72 hours**
 
-- **HR partnership.** Co-ownership: HR runs the learning platform, tracks completion, and integrates AI literacy into role expectations and onboarding; I provide curriculum, Champions, and the standards completion is measured against.
+The key: **Make low-risk cases so fast that teams prefer the sanctioned path.** Make high-risk cases transparent and predictable so teams don't bypass them.
 
-**By design:** as IC I will not try to personally train 2,700 employees. The hub-and-spoke model — Champions as spokes, HR as platform partner — is how this scales, and the operating model the role is built for.
+### Training-as-Gate Model
 
-## 7. Value realization and the eight-week board update
-**My approach to ROI: establish baselines before any tool goes live.** Productivity gains are only defensible when measured against a documented pre-tool reality, not a remembered one. Most enterprise AI ROI claims fail scrutiny because they skip this — I won't. I spent the first six weeks pre-launch establishing baselines at Toyota across teams and personas, including non-engineering. Same discipline at JD Power — what makes the value story defensible to a PE owner looking for measurable creation, not narrative.
+Tool access isn't handed out. It's unlocked through completion of role-specific training.
 
-**Metrics I track:** monthly active users by BU and persona; depth (sessions, workflows per user); time-to-completion on defined workflows vs pre-rollout baselines; hours saved × loaded cost by role — the P&L number for CEO and owner; $/active user/month, $/workflow, % usage within budget.
+**7 Personas × 4-Session Arc:**
+- Analyst → use AI for research and synthesis
+- Researcher → use AI for literature review and pattern detection
+- Consultant → use AI for client delivery (governed)
+- Operations → use AI for process optimization
+- Executive → use AI for briefing prep and strategic analysis
+- Finance → use AI for financial modeling and forecasting
+- Engineering → use AI for coding assistance (with guardrails)
 
-**Metrics I will refuse to track as primaries:** *count of AI initiatives* and *AI seats deployed.* The current tracker is a useful inventory, not a north star. Initiative and seat counts are vanity metrics the PE owner will see through.
+Training focuses on **judgment, not just tool features.** By the end, users understand when to use AI, when not to, and how to validate results.
 
-**Eight-week board update — what I'll present:**
-1. State of AI at JD Power — sanctioned + shadow, with honest numbers.
-2. Hub operating model and the now-codified governance framework.
-3. Tool portfolio, $400K allocation, and rationale.
-4. Champions network and persona-based enablement program live across all BUs; CDAO partnership and shared governance.
-5. Early productivity indicators — baselines established, first measurements with explicit caveats; what I will and will not deliver by month six, and what changes with one additional headcount.
+**Result:** Adoption sticks because behavior is locked in, not just seat licenses issued.
 
-## 8. What I will not deliver in the first six months — the honest part
-- **Not a full role-based AI literacy program for 2,700 employees.** I will deliver the framework, persona tracks, Champions running first cohorts, and a measurable adoption baseline.
-- **Not a fully codified governance policy book.** I will deliver a 4-page operating policy, three workflow-specific guardrails for the highest-risk patterns (client deliverables, confidential client data, externally-shared AI-generated content), and a roadmap for year two.
-- **Not enterprise rollouts of multiple new tool categories.** Two general-purpose platforms (productivity baseline + Claude Enterprise) and the observability layer. Specialized agent/RAG tools wait for year two, once we know where the real gaps are.
-- **Not personal management of every shadow workflow.** Champions, observability, and the catalog handle the long tail. I handle the high-risk patterns directly.
+### Per-User AI Budgets
 
-I run the role as IC through month six. At that point, with adoption and baseline-to-current value data in hand, I'll bring the business case for the first additional headcount — a **Principal AI Enablement Engineer** with strong engineering depth and shipping discipline, working across the Hub's full responsibility surface (intake, governance, tool catalog, Champions, literacy, measurement) and unlocking roadmap items beyond what one IC can scale. What comes after IC gets written from evidence, not assumption.
+Monthly budget + daily consumption alerts + no rollover = **personal accountability.**
 
-## 9. Disclosure on AI assistance for this memo
-I used ChatGPT & Claude (Anthropic) to pressure-test this memo against the brief and to sharpen prose. The structure, operating model, live-situation answers, $400K allocation, and Toyota patterns are mine. Specific edits over Claude's first draft: tightened the live-situation handling (too cautious on the OEM deliverable), removed two engineering-defaulted metrics, and made the CDAO Steering Committee co-chair proposal explicit. If selected, I'd bring the same posture to internal AI-assisted work — disclosed, edited, and owned.
+Instead of a $400K annual pool that's invisible, each user gets a monthly budget (e.g., $80/month for an analyst).
+
+**What this does:**
+- Makes AI costs personally salient (not an abstraction)
+- Encourages responsible usage (not reflexive)
+- Gives you usage data by role and pattern
+- Prevents runaway consumption from a few power users
+
+**Result:** Adoption becomes disciplined, not reckless.
+
+### Governance in System Prompts
+
+Instead of reviewing every output, **encode governance into the AI itself.**
+
+System prompts can include:
+- What types of decisions the AI can assist with
+- What data it can process
+- Refusal patterns (e.g., "do not draft client-facing content without human review")
+- Audit logging requirements
+- Escalation triggers
+
+**Result:** Governance is foundational, not afterthought.
+
+---
+
+## Part 3: Implementation Framework (90 Days)
+
+### Phase 1: Days 1-30 — Strategy & Setup
+
+**Governance council established:** CIO, CISO, General Counsel, VP Operations, VP Finance, plus rotating field representatives
+
+**Tool evaluation complete:** Assess current state (what's already in use), evaluate strategic platforms, make build-vs-buy decisions
+
+**Policies codified:** 4-page operating policy covering risk tiers, approval workflows, escalation paths, acceptable use
+
+**Champions identified:** 6-9 pilot champions across business units
+
+### Phase 2: Days 31-60 — Pilot Launch
+
+**Two pilots in flight:**
+- Track A (low-risk): 3-5 business units running with champions
+- Track B (high-risk): 1-2 high-stakes projects with formal intake
+
+**Training tracks launched:** Kick off persona-based training with early adopters
+
+**Budget system deployed:** Per-user budget dashboards live, consumption visibility in place
+
+**Early wins documented:** Photos, quotes, metrics from pilot champions
+
+### Phase 3: Days 61-90 — Measurement & Expansion
+
+**Results quantified:** Compare pre-AI baselines to post-AI outcomes (time saved, quality improvement, cost impact)
+
+**Business case updated:** Based on actual pilot data, project enterprise ROI
+
+**Scale plan finalized:** Q2-Q3 roadmap approved, champion expansion plan set
+
+**Go-to-market activated:** Sales team armed with proof points and case studies
+
+---
+
+## Part 4: Positioning for Customers
+
+### The Value Proposition
+
+**"Stop shadow AI. Govern faster. Adopt at scale."**
+
+We help enterprises turn AI adoption from a compliance problem into a competitive advantage. Instead of:
+- Blocking adoption with slow governance
+- Letting adoption run wild unsupervised
+- Getting stuck in indefinite pilot phase
+
+We enable:
+- Governance that *enables* speed (not blocks it)
+- Measurement that *proves* impact
+- Adoption that *sticks* (training locks in behavior)
+
+### Ideal Customer Profile
+
+**Company size:** $1B+ revenue (large enough to care about governance, small enough to move fast)
+
+**AI maturity:** Post-pilot stage (they have 2-3 tools running, they want to scale)
+
+**Pain point:** "We have shadow AI, our governance is too slow, our training hasn't worked"
+
+**Budget owner:** CIO or Chief Digital Officer (wants to scale responsibly)
+
+### Service Scope
+
+**Engagement: 90-day implementation**
+- Governance council facilitation
+- Hub setup and staffing recommendations
+- Tool evaluation and selection
+- Policy codification and training program build
+- Champions activation
+- Baseline measurement and results reporting
+
+**Deliverables:**
+- Operating policy document
+- Tool evaluation matrix
+- Champions program playbook
+- Training curriculum (7 personas)
+- Budget and measurement dashboard setup
+- 90-day results report with ROI projection
+
+**Team required:**
+- 1 Engagement Lead (Perficient)
+- 1 Governance specialist (Perficient)
+- 2 Client champions (customer side)
+- Steering committee (customer leadership)
+
+**Estimated cost:** $250-350K (implementation services)
+
+---
+
+## Part 5: Go-to-Market Strategy
+
+### Immediate Actions (Next 30 Days)
+
+1. **Build sales assets:**
+   - 1-page service description
+   - 5-slide pitch deck
+   - Customer ROI calculator
+   - Case study template
+
+2. **Activate sales team:**
+   - Brief 15+ sales leaders on the offering
+   - Provide talking points for discovery conversations
+   - Enable them to identify warm prospects (who are already struggling with shadow AI)
+
+3. **Identify pilot customers:**
+   - Which of our current customers would benefit from this?
+   - Who has complained about governance bottlenecks?
+   - Who has asked "how do we scale AI responsibly?"
+
+### Q2 Targets
+
+- **3-5 pilot engagements** (discounted or proof-of-concept pricing to validate the model)
+- **Case studies in flight** (measure results, document wins)
+- **Refined delivery model** (based on pilot feedback)
+- **Pricing finalized** (standard engagement vs. enterprise variants)
+
+### Q3+ Vision
+
+- **10+ active engagements** (start creating recurring revenue from ongoing governance and measurement)
+- **Thought leadership** (industry articles, speaking engagements positioning Perficient as AI governance experts)
+- **Partner ecosystem** (vendors like Anthropic, Microsoft, integration partners)
+- **Recurring revenue model** (governance-as-a-service, not just project fees)
+
+---
+
+## Part 6: Why This Works Now
+
+**Three market tailwinds:**
+
+1. **Regulation catching up:** EU AI Act, SEC rules on AI disclosures, industry-specific regs (finance, healthcare). Customers will need to govern. We have a framework ready.
+
+2. **Shadow AI is breaking:** Companies are realizing uncontrolled AI creates risk. They're past the "let's experiment phase" and into "we need to scale responsibly."
+
+3. **AI literacy improving:** Customers are ready to invest in training and adoption. They're not looking for a tool; they're looking for an operating model.
+
+**We have a 6-month window** before competitors start offering similar frameworks. We should move now.
+
+---
+
+## Recommendation
+
+**Approve this as a new service offering.** Position for Q2 launch with 3-5 pilot customers.
+
+**Allocation:** 
+- 1 full-time engagement lead
+- 0.5 FTE governance specialist
+- Sales enablement and marketing support
+
+**Expected Year 1 Revenue:** $1-1.5M (3-5 engagements × $250-350K average)
+
+**Expected Year 2+ Revenue:** $3-5M (mix of new implementations + recurring governance services)
+
+This is not a side project. This is a new business line for Perficient. And the market is ready.
+
+---
+
+**Next Steps:**
+
+1. Leadership alignment (this memo)
+2. Sales team briefing (brief deck, talking points)
+3. Pilot customer identification (internal list)
+4. Pilot engagement proposal (draft by week 2)
+5. Q2 launch kickoff
+
+The framework is built. The prototype is ready. We're ready to sell.
+

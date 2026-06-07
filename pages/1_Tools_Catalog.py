@@ -7,14 +7,14 @@ import streamlit as st
 from utils.brand import apply_brand
 from utils.data_loader import load_tools
 
-st.set_page_config(page_title="Tools Catalog · AI Enablement Hub", layout="wide")
-apply_brand("Tools Catalog · Two-platform strategy")
+st.set_page_config(page_title="Tools Catalog · AI Adoption Operating Model", layout="wide")
+apply_brand("Tools Catalog · Consolidated Strategy")
 
-st.title("Tools Catalog")
+st.title("Enterprise AI Tools Strategy")
 st.caption(
-    "My principle: **consolidation over proliferation, but not single-vendor.** Two general-purpose "
-    "platforms by design — productivity baseline + Claude Enterprise. Specialized tools deferred to "
-    "year two until baseline data shows where the real gaps are."
+    "Principle: **consolidation over proliferation, but not single-vendor.** Two general-purpose "
+    "platforms by design — productivity baseline (ChatGPT Enterprise) + advanced reasoning (Claude Enterprise). "
+    "Specialized tools introduced only when baseline data shows specific capability gaps."
 )
 
 df = load_tools()
@@ -36,7 +36,7 @@ st.divider()
 
 # ---------- Two-platform strategy callout ----------
 with st.container(border=True):
-    st.markdown("### My tool-strategy conviction")
+    st.markdown("### Perficient's tool-strategy recommendation")
     cols = st.columns(4)
     cols[0].markdown(
         """

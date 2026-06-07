@@ -13,7 +13,17 @@
       "Bash(python3 -c \"import reportlab; print\\('reportlab available'\\)\")",
       "Bash(pip install *)",
       "Bash(python3)",
-      "Bash(/usr/local/opt/python@3.11/bin/python3.11)"
+      "Bash(/usr/local/opt/python@3.11/bin/python3.11)",
+      "Bash(streamlit run *)",
+      "Bash(curl -s http://localhost:8501)",
+      "Bash(curl -s http://localhost:8501/app.py)",
+      "Bash(cat)",
+      "Bash(python3 /tmp/test_endpoints.py)",
+      "Bash(curl -s -o /dev/null -w \"Landing Page: HTTP %{http_code}\\\\n\" http://localhost:8501/app.py)",
+      "Bash(curl -s -o /dev/null -w \"Strategy Overview: HTTP %{http_code}\\\\n\" http://localhost:8501/pages/1_Strategy_Overview.py)",
+      "Bash(curl -s -o /dev/null -w \"Strategic Advisor: HTTP %{http_code}\\\\n\" http://localhost:8501/pages/6_Strategic_Advisor.py)",
+      "Bash(curl -s -o /dev/null -w \"Landing page status: HTTP %{http_code}\\\\n\" http://localhost:8501/app.py)",
+      "Bash(curl -s \"https://www.perficient.com\")"
     ],
     "additionalDirectories": [
       "/Users/elangosanthanam/Documents/CodeRepo/ai-enablement-hub"

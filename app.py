@@ -1,4 +1,4 @@
-"""AI Enablement Hub — landing page.
+"""Perficient AI Adoption Operating Model — landing page.
 
 Run locally:
     streamlit run app.py
@@ -18,20 +18,20 @@ from utils.data_loader import (
 )
 
 st.set_page_config(
-    page_title="JD Power · AI Enablement Hub",
+    page_title="Perficient · AI Adoption Operating Model",
     page_icon="◆",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-apply_brand("Designed & governed by Elango Santhanam")
+apply_brand("Enterprise AI Adoption Framework")
 
 # ---------- Hero ----------
-st.title("AI Enablement Hub")
+st.title("Enterprise AI Adoption Operating Model")
 st.caption(
-    "One place for every business unit to discover approved AI tools, browse vetted use cases, "
-    "find their Champion, track adoption, and run governed AI workflows — without each team "
-    "reinventing the wheel."
+    "A proven framework to scale AI responsibly: unified tool governance, champion-led adoption, "
+    "metrics-driven measurement, and training that locks in behavior change. "
+    "For enterprises ready to move beyond pilot programs."
 )
 
 st.divider()
@@ -61,7 +61,7 @@ with left:
     st.subheader("How this hub works")
     st.markdown(
         """
-        The hub is the **central nervous system** for AI adoption at JD Power — but the work
+        The hub is the **central nervous system** for AI adoption — but the work
         happens in the business units, run by Champions who know their domain.
 
         - **Hub team (solo IC, for the first six months)** sets standards, evaluates platforms,
@@ -151,8 +151,8 @@ st.divider()
 with st.expander("About this prototype"):
     st.markdown(
         """
-        This is a working v0 of an enterprise AI Enablement Hub — built end-to-end as a
-        demonstration of how the role would operate at JD Power.
+        This is a working prototype of the Perficient AI Adoption Operating Model —
+        built end-to-end as a demonstration of the framework in action.
 
         - **Stack:** Streamlit, Anthropic Claude API, Plotly, pandas.
         - **Data:** Adoption metrics, Champion names, and BU rollout figures are illustrative

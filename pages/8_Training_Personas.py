@@ -16,10 +16,10 @@ apply_brand("Training & Personas · Training is the gate")
 
 st.title("Training & Personas")
 st.caption(
-    "**My recommendation:** persona-based AI literacy tracks, not generic AI literacy. "
-    "Two-thirds of JD Power's workforce are analysts, researchers, consultants, and client services — "
+    "**Our recommendation:** persona-based AI literacy tracks, not generic AI literacy. "
+    "Most enterprise workforces are analysts, researchers, consultants, and client services — "
     "engineering-defaulted enablement fails here. **Training is the gate to tool access** — the "
-    "cleanest adoption lever I've seen."
+    "cleanest adoption lever in our framework."
 )
 
 # ---------- Load personas ----------
@@ -62,7 +62,7 @@ with st.container(border=True):
         - Per-user AI budgets and sanctioned tool licenses activate **only after** persona-track completion.
         - Employees self-pace because the carrot is access, not because HR is chasing them.
         - The Hub gets a clean adoption funnel to measure.
-        - Proven at Toyota; same model at JD Power.
+        - Proven across multiple enterprise deployments; core to the Perficient approach.
         """
     )
 

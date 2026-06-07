@@ -1,9 +1,9 @@
 [theme]
-# JD Power-inspired palette: signature red, deep navy, warm off-white background
-primaryColor = "#BE1E2D"
-backgroundColor = "#F7F4F0"
+# Perficient-inspired palette: signature blue, professional white, clean background
+primaryColor = "#003D82"
+backgroundColor = "#F5F5F5"
 secondaryBackgroundColor = "#FFFFFF"
-textColor = "#1A2238"
+textColor = "#333333"
 font = "sans serif"
 
 [server]

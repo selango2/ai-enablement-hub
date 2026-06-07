@@ -1,4 +1,4 @@
-"""Simple password gate for the JD Power AI Enablement Hub portal.
+"""Simple password gate for the Perficient AI Adoption Operating Model portal.
 
 One shared access code, resolved from Streamlit Cloud secrets or env var.
 Once a user enters the correct code, they're authenticated for the browser
@@ -51,8 +51,8 @@ def _render_login_screen(expected_present: bool, error: str | None) -> None:
         """
 <div class="jdpower-header" style="margin-bottom: 24px;">
     <div>
-        <span class="brand"><span class="brand-mark">JD</span>POWER</span>
-        &nbsp;&nbsp;<span class="sub">AI Enablement Hub</span>
+        <span class="brand"><span class="brand-mark">P</span>ERFICIENT</span>
+        &nbsp;&nbsp;<span class="sub">AI Adoption Operating Model</span>
     </div>
     <div class="sub">Access required</div>
 </div>
@@ -63,8 +63,8 @@ def _render_login_screen(expected_present: bool, error: str | None) -> None:
     with st.container(border=True):
         st.markdown("### Authorized access only")
         st.caption(
-            "This portal is a working prototype built for the JD Power Head of AI "
-            "Enablement Hub conversation. Please enter the access code shared with you."
+            "This is a Perficient AI Adoption Operating Model demonstration. "
+            "Please enter the access code shared with you."
         )
 
         with st.form(key="jp_login_form", clear_on_submit=False):
