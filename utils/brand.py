@@ -213,7 +213,7 @@ h1, h2, h3 {
 """
 
 _SIDEBAR_BRAND_HTML = """
-<div class="jdpower-sidebar-brand">
+<div class="perficient-sidebar-brand">
     <div>
         <span class="jp-mark">P</span><span class="jp-name">ERFICIENT</span>
     </div>
@@ -234,20 +234,20 @@ def _render_sidebar_nav() -> None:
         st.markdown("</div>", unsafe_allow_html=True)
 
         # Tools & governance group
-        st.markdown('<div class="jdpower-nav-section">Tools & Governance</div>', unsafe_allow_html=True)
+        st.markdown('<div class="perficient-nav-section">Tools & Governance</div>', unsafe_allow_html=True)
         st.page_link("pages/1_Tools_Catalog.py", label="Tools Catalog")
         st.page_link("pages/5_Responsible_AI.py", label="Responsible AI")
         st.page_link("pages/6_Prompt_Library.py", label="Prompt Library")
 
         # Adoption & people group
-        st.markdown('<div class="jdpower-nav-section">Adoption & People</div>', unsafe_allow_html=True)
+        st.markdown('<div class="perficient-nav-section">Adoption & People</div>', unsafe_allow_html=True)
         st.page_link("pages/2_Use_Case_Marketplace.py", label="Use Case Marketplace")
         st.page_link("pages/3_Champions_Network.py", label="Champions Network")
         st.page_link("pages/8_Training_Personas.py", label="Training & Personas")
         st.page_link("pages/4_Adoption_Metrics.py", label="Adoption Metrics")
 
         # Live agent group
-        st.markdown('<div class="jdpower-nav-section">Live Agent</div>', unsafe_allow_html=True)
+        st.markdown('<div class="perficient-nav-section">Live Agent</div>', unsafe_allow_html=True)
         st.page_link("pages/7_Live_Agent.py", label="Industry Insight Assistant")
 
 
@@ -260,7 +260,7 @@ def apply_brand(page_label: str | None = None) -> None:
     right_label = page_label or "Governed by design"
     st.markdown(
         f"""
-<div class="jdpower-header">
+<div class="perficient-header">
     <div>
         <span class="brand"><span class="brand-mark">P</span>ERFICIENT</span>
         &nbsp;&nbsp;<span class="sub">AI Adoption Operating Model</span>
