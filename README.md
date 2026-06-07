@@ -1,6 +1,6 @@
-# AI Enablement Hub
+# Perficient AI Adoption Operating Model
 
-A working prototype of an enterprise AI Enablement Hub — built as a hands-on demonstration for the Head of AI Enablement role.
+A working prototype demonstrating enterprise-scale AI adoption governance — built to showcase Perficient's proven operating model for responsible AI enablement.
 
 The hub is a single landing place where every business unit can discover approved AI tools, browse vetted use cases, find their Champion, track adoption, and run governed AI workflows — without each team reinventing the wheel.
 
